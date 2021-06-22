@@ -138,6 +138,27 @@ new DownloadDialog.Builder(this,mDownloadUrl,false)
                         .build().start();
 ```
 
+* 设置下载dialog样式
+
+```
+new DownloadDialog.Builder(this,mDownloadUrl,false)
+                        .downloadCallback(new DownlaodCallback() {
+                            @Override
+                            public void callback(int code, String message) {
+                            }
+                        })
+                        .build()
+                        .setDialogStyle(R.drawable.update_bg_dark)
+                        .setCancelColor(R.color.orange)
+                        .setConfirmColor(R.color.dark_tx)
+                        .setTitleColor(R.color.dark_tx)
+                        .setLineColor(R.color.lineGray)
+                        .setProgressStyle(getResources().getDrawable(R.drawable.custom_progressbar_bg))
+                        .start();
+```
+
+
+
 * 主要参数
 
 ```
@@ -170,6 +191,7 @@ new UpdateWrapper.Builder(this,mJsonUrl)
                         .build()
                         .start();
 ```
+
 
 
 * 当做dialog使用，自定义dialog样式，自定义toast都OK
