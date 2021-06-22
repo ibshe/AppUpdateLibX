@@ -37,7 +37,7 @@ dependencies {
 
 ```
 dependencies {
-	        implementation 'com.gitee.zkzyjs:AppUpdateLib:1.0.6'
+	        implementation 'com.github.ibshe:AppUpdateLib:1.0.6'
 	}
 ```
 
