@@ -173,7 +173,7 @@ new UpdateWrapper.Builder(this,mJsonUrl)
                         .isPost(false)//检查更新请求协议是否为POST，默认GET
                         .isMustUpdate(false)//是否强制更新
                         .backgroundDownload(false)//是否后台下载
-                        .model(null)//非本地实体，不传默认为null
+                        .model(null)//本地实体，不传默认为null
                         .downloadCallback(new DownlaodCallback() {//下载状态回调
                             @Override
                             public void callback(int code, String message) {
@@ -232,6 +232,32 @@ new BsDialog(this, R.layout.custom_update_dialog) {
                 .setCanceledOnTouchOutside(true)
                 .showDialog();
 ```
+
+#### 其他参数
+
+
+```
+ * 1、更新内容带#自动换行
+ * 2、设置DownlaodCallback回调后，toast不展示；如需展示默认的toast，不设置DownlaodCallback即可
+ * 3、更新dialog与下载dialog完全解耦，方便自定义
+```
+
+* json格式
+
+
+```
+{
+  "versionCode":24,
+  "versionName":"1.7.8",
+  "content":"增加报表导出功能",
+  "minSupport":4,	
+  "url":"http://103.45.138.168/apps/music_pj.apk",
+  "updateTitle":"发现新版本",
+  "mustUpdate":false,
+  "date":"2021-06-01 09:02:10"
+}
+```
+
 
 
 ### 鸣谢
