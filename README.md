@@ -34,10 +34,13 @@ dependencies {
 ####   用法：
 
 * 一行代码检查更新
+
+```
 new UpdateWrapper.Builder(this,mJsonUrl).build().start();
+```
 此方式使用默认的更新dialog和下载dialog样式，以及默认toast提示。
 
-
+* 
 
 ### 鸣谢
 
