@@ -6,7 +6,7 @@
     update and download dialog styles, as well as customized dialog or custom toast
 [中文README](https://gitee.com/zkzyjs/AppUpdateLib/blob/master/README.md) 
 
-[support version](https://github.com/ibshe/AppUpdateLib)
+[support version(support版本)](https://github.com/ibshe/AppUpdateLib)
 
 [博客](https://blog.csdn.net/m0_37824232/article/details/118102122) 
 
