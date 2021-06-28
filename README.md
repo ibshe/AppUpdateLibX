@@ -1,6 +1,7 @@
-# AppUpdateLib
+# AppUpdateLibX
 
 ### 介绍
+AppUpdateLib的androidX版本， [support版版本](https://github.com/ibshe/AppUpdateLib)
 
 开发过程中，发现很多更新库定制样式比较费事(如自定义dialog功能不完善，更新dialog和下载dialog耦合高等)，且功能不是特别契合需求(如使用dialogfragment封装难修改圆角、样式较难定制)，为加快开发速度提升效率，空闲时间简单封装了一个更新框架。方便轻巧灵活的应用更新库和dialog库，独立于okhttp和retrofit。
 
