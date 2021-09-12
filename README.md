@@ -12,7 +12,7 @@
 
 ### renderings
     
-![ib](http://103.45.138.168/apps/screenshot2.jpg) 
+![ib](https://img-blog.csdnimg.cn/20210702121146990.jpg) 
 
 ## Usage
 
